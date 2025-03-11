@@ -1,0 +1,63 @@
+Date,ID,Name,Region,Rating,Product,Quantity,Price Per Unit,
+1/31/21 0:00,1,John Smith   ,North,Good,Magic Wand,10,$20.00 ,
+2/28/21 0:00,2,Jane Doe,East,Excelent,Unicorn Horn,15,$10.00 ,
+4/30/21 0:00,4,Anna   Belle,South,Average,Fairy Dust,25,$10.00 ,
+5/31/21 0:00,5,Chris P. Bacon,East,Good,Bacon Scented Candle,30,$16.67 ,
+7/31/21 0:00,7,Mary Jane,West,Poor,Potent Potion,35,$10.00 ,
+8/31/21 0:00,8,Bruce Wayne,South,Average,Bat Signal,40,$15.00 ,
+9/30/21 0:00,9,Clark Kent,East,Good,Glasses with X-ray Vision,45,$12.22 ,
+10/31/21 0:00,10,Diana Prince,North,Excelent,Lasso of Truth,50,$14.00 ,
+11/30/21 0:00,11,Tony Stark,West,Poor,Iron Man Suit,5,$160.00 ,
+12/31/21 0:00,12,Steve Rogers,South,Average,Captain America Shield,20,$45.00 ,
+3/31/22 0:00,15,Nick Fury,West,Poor,Eye Patch,35,$34.29 ,
+5/31/22 0:00,17,Peggy Carter,East,Good,Vintage Pistol,40,$35.00 ,
+6/30/22 0:00,18,Howard Stark,North,Excelent,Arc Reactor,45,$33.33 ,
+7/31/22 0:00,19,Hank Pym,West,Poor,Ant-Man Suit,50,$32.00 ,
+8/31/22 0:00,20,Janet van Dyne,South,Average,Wasp's Wings,55,$30.91 ,
+9/30/22 0:00,21,Kurt Busiek,East,Good,Comic Book,60,$30.00 ,
+11/30/22 0:00,23,Roger Stern,West,Poor,Notepads,65,$30.77 ,
+12/31/22 0:00,24,Tom DeFalco,South,Average,Pen Set,70,$30.00 ,
+1/31/23 0:00,25,Loki Laufeyson,Asgard,Mischief,Trickster's Hat,75,$29.33 ,
+2/28/23 0:00,26,Thor Odinson,Asgard,Worthy,Mjolnir,80,$28.75 ,
+4/30/23 0:00,28,Steve Rogers,South,Leader,Leadership Manual,85,$29.41 ,
+,,,,,,,,
+SOUTH ANALYSIS,,,,,,,,
+Date,ID,Name,Region,Rating,Product,Quantity,Price Per Unit,Total value
+4/30/21 0:00,4,Anna   Belle,South,Average,Fairy Dust,25,$10.00 , $ 250.00 
+8/31/21 0:00,8,Bruce Wayne,South,Average,Bat Signal,40,$15.00 , $ 600.00 
+12/31/21 0:00,12,Steve Rogers,South,Average,Captain America Shield,20,$45.00 , $ 900.00 
+8/31/22 0:00,20,Janet van Dyne,South,Average,Wasp's Wings,55,$30.91 ," $ 1,700.05 "
+12/31/22 0:00,24,Tom DeFalco,South,Average,Pen Set,70,$30.00 ," $ 2,100.00 "
+4/30/23 0:00,28,Steve Rogers,South,Leader,Leadership Manual,85,$29.41 ," $ 2,499.85 "
+Total,,,,,,295,," $ 8,049.90 "
+,,,,,,,,
+EAST ANALYSIS,,,,,,,,
+Date,ID,Name,Region,Rating,Product,Quantity,Price Per Unit,Total value
+2/28/21 0:00,2,Jane Doe,East,Excelent,Unicorn Horn,15,$10.00 , $ 150.00 
+5/31/21 0:00,5,Chris P. Bacon,East,Good,Bacon Scented Candle,30,$16.67 , $ 500.10 
+9/30/21 0:00,9,Clark Kent,East,Good,Glasses with X-ray Vision,45,$12.22 , $ 549.90 
+5/31/22 0:00,17,Peggy Carter,East,Good,Vintage Pistol,40,$35.00 ," $ 1,400.00 "
+9/30/22 0:00,21,Kurt Busiek,East,Good,Comic Book,60,$30.00 ," $ 1,800.00 "
+Total,,,,,,190,," $ 4,400.00 "
+,,,,,,,,
+WEST ANALYSIS,,,,,,,,
+Date,ID,Name,Region,Rating,Product,Quantity,Price Per Unit,Total value
+7/31/21 0:00,7,Mary Jane,West,Poor,Potent Potion,35,$10.00 , $ 350.00 
+11/30/21 0:00,11,Tony Stark,West,Poor,Iron Man Suit,5,$160.00 , $ 800.00 
+3/31/22 0:00,15,Nick Fury,West,Poor,Eye Patch,35,$34.29 ," $ 1,200.15 "
+7/31/22 0:00,19,Hank Pym,West,Poor,Ant-Man Suit,50,$32.00 ," $ 1,600.00 "
+11/30/22 0:00,23,Roger Stern,West,Poor,Notepads,65,$30.77 ," $ 2,000.05 "
+Total,,,,,,190,," $ 5,950.20 "
+,,,,,,,,
+NORTH ANALYSIS,,,,,,,,
+Date,ID,Name,Region,Rating,Product,Quantity,Price Per Unit,Total value
+1/31/21 0:00,1,John Smith   ,North,Good,Magic Wand,10,$20.00 , $ 200.00 
+10/31/21 0:00,10,Diana Prince,North,Excelent,Lasso of Truth,50,$14.00 , $ 700.00 
+6/30/22 0:00,18,Howard Stark,North,Excelent,Arc Reactor,45,$33.33 ," $ 1,499.85 "
+Total,,,,,,105,," $ 2,399.85 "
+,,,,,,,,
+ASGARD ANALYSIS,,,,,,,,
+Date,ID,Name,Region,Rating,Product,Quantity,Price Per Unit,Total value
+1/31/23 0:00,25,Loki Laufeyson,Asgard,Mischief,Trickster's Hat,75,$29.33 ,"$2,199.75 "
+2/28/23 0:00,26,Thor Odinson,Asgard,Worthy,Mjolnir,80,$28.75 ,"$2,300.00 "
+Total,,,,,,155,,"$4,499.75 "
